@@ -1,4 +1,4 @@
-package actividadcasaunidad1;
+package semana7.actividadcasaunidad1;
 public class Productos {
     private String nombre;
     private double precio;
