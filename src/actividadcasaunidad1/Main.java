@@ -1,4 +1,4 @@
-package actividadcasa;
+package actividadcasaunidad1;
 public class Main {
     public static void main(String[] args) {
         Productos prod1 = new Productos("Camiseta", 29.99, 50);

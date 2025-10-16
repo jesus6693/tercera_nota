@@ -1,4 +1,4 @@
-package actividadcasa;
+package actividadcasaunidad1;
 public class Productos {
     private String nombre;
     private double precio;
