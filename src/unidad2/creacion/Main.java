@@ -2,7 +2,7 @@ package unidad2.creacion;
 
 public class Main {
     public static void main(String[] args) {
-        // Crear un objeto Ejercicio (subclase de Paquete)
+        // Crear un objeto Paquete
         Paquete p1 = new Paquete("ABC123", 5.0);
 
         // Crear otra referencia al mismo objeto
