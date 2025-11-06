@@ -1,20 +1,20 @@
 package unidad3.usoadecuadoexcepcion;
 
+import java.io.*;
 public class Main {
     public static void main(String[] args) {
         DataLoader dataLoader = new DataLoader();
         AverageCalculator calculator = new AverageCalculator();
 
-        String nombreArchivo = "datos.txt";  // Puedes cambiar el nombre para probar
+        String nombreArchivo = "datos.txt";  
 
         try {
             String datos = dataLoader.loadFile(nombreArchivo);
             System.out.println("Datos cargados del archivo:");
             System.out.println(datos);
 
-            // Por ejemplo, vamos a calcular un promedio con datos ficticios:
             int total = 100;
-            int cantidad = 0;  // Para probar la excepción de división por cero
+            int cantidad = 0;
 
             double promedio = calculator.calcular(total, cantidad);
             System.out.println("Promedio: " + promedio);
